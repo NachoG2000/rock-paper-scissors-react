@@ -71,8 +71,8 @@ function App() {
   
   return (
     <div className='flex flex-col items-center gap-8 bg-gradient-to-br from-blue-950 via-blue-800 to-blue-950 h-screen'>
-      <div className="flex justify-between border-gray-500 border-2 sm:w-[60%] h-auto rounded-xl mx-2 mt-2 sm:mt-16">
-        <img src={logo} alt="logo" className="ml-4 object-contain max-h-[95%] self-center" />
+      <div className="flex justify-between border-gray-500 border-2 sm:w-[60%] h-fit rounded-xl mx-2 mt-2 sm:mt-16">
+        <img src={logo} alt="logo" className="ml-4 object-contain self-center" />
         <div className="flex flex-col items-center bg-white w-[160px] h-30 m-3 py-4 rounded-lg">
           <h3 className="font-bold text-gray-800">S C O R E</h3>
           <h3 className="text-6xl font-bold text-gray-800">{gameCounter}</h3>
